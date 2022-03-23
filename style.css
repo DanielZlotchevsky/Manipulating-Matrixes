@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    grid-gap: 10px;
+    padding-top: 20px;
+}
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 22px;
+    font-size: 150%;
+    text-align: center;
+}
+
+.button {
+    offset: 10px;
+}
